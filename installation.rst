@@ -15,7 +15,7 @@ Clone |github| Repo
 
 |beerme|
 
-First thing you want to do is clone the `BeerMe <https://github.com/nishantgerald/BeerMe>`_ repo 
+First thing you want to do is clone the `BeerMe <https://github.com/nishantgerald/BeerMe>`_ repo:
 
 .. code-block:: console
 
