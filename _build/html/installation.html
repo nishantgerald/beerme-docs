@@ -49,6 +49,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#get-latest-brewery-data">Get latest Brewery Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#initialize-sqlite3-database">Initialize SQLite3 Database</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#deploy">Deploy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reset-database">Reset Database</a></li>
 </ul>
 </li>
 </ul>
@@ -154,6 +155,14 @@ of this database is the store user registration data, as well as beer check-in d
 </pre></div>
 </div>
 <p>In this example we’ve deploy BeerMe on port 5001, however, you can use any unused port on your server.</p>
+</section>
+<section id="reset-database">
+<h2>Reset Database<a class="headerlink" href="#reset-database" title="Permalink to this heading"></a></h2>
+<p>If, for some reason, you need to reset the database to a fresh new version:</p>
+<ol class="arabic simple">
+<li><p>Remove the old sqlite file using <code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">instance/beerme.sqlite</span></code>, and</p></li>
+<li><p>Rerun the database initialization function <code class="docutils literal notranslate"><span class="pre">flask</span> <span class="pre">--app</span> <span class="pre">beerme</span> <span class="pre">init-db</span></code></p></li>
+</ol>
 <p>Congratulations - you’re all set!</p>
 </section>
 </section>

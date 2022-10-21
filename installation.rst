@@ -97,4 +97,12 @@ You're now ready to deploy the application:
 
 In this example we've deploy BeerMe on port 5001, however, you can use any unused port on your server.
 
+Reset Database
+---------------------------
+If, for some reason, you need to reset the database to a fresh new version:
+
+1. Remove the old sqlite file using ``rm instance/beerme.sqlite``, and
+2. Rerun the database initialization function ``flask --app beerme init-db``
+
+
 Congratulations - you're all set!
